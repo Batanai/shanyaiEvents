@@ -78,7 +78,7 @@ workflows:
     instance_type: mac_mini_m1
     environment:
       groups:
-        - eventscan
+        - shanyai
       node: 19.0.0
       vars: *event_scanner_signing
     scripts:
