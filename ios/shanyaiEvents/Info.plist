@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>shanyaiEvents</string>
+	<string>Shanyai Events</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -36,11 +36,9 @@
 		</dict>
 	</dict>
 	<key>NSCameraUsageDescription</key>
-    <string>We need your permission to access the camera to enable you to scan the barcode or QR code to subscribe to the event your choice</string>
+	<string>We need your permission to access the camera to enable you to scan the barcode or QR code to subscribe to the event your choice</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>
-	<key>NSCameraUsageDescription</key>
-    <string>We need your permission to access the camera to enable you to scan the barcode or QR code to subscribe to the event your choice</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
