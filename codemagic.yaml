@@ -73,8 +73,8 @@ definitions:
         success: true
         failure: true
 workflows:
-  event_scan_app:
-    name: EventScannerApp
+  shanyai_events_app:
+    name: ShanyaiEventsApp
     instance_type: mac_mini_m1
     environment:
       groups:
