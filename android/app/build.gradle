@@ -94,7 +94,7 @@ android {
     compileSdkVersion rootProject.ext.compileSdkVersion
 
     def appVersionCode = System.env.VERSION_NUMBER + "." + System.env.BUILD_NUMBER ?: "1.0.0"
-    def appBuildCode = System.env.BUILD_NUMBER ? Integer.valueOf(System.env.BUILD_NUMBER) + 1036 : 1
+    def appBuildCode = System.env.BUILD_NUMBER ? Integer.valueOf(System.env.BUILD_NUMBER) + 1000 : 1
     def bundleId = System.env.BUNDLE_ID_IDENTIFIER ?: "co.event.scanner"
     def aabName = System.env.XCODE_SCHEME ?: "shanyai-events"
 
