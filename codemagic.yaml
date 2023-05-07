@@ -81,7 +81,6 @@ workflows:
       groups:
         - shanyai
       node: 19.0.0
-      xcode: 14.2
       vars: *event_scanner_signing
     scripts:
       - *ios_keychain
